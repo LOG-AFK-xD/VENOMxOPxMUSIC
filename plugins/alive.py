@@ -33,12 +33,12 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+        photo=f"https://telegra.ph/file/49b5112926e556cb64c9e.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━
+♻️ Hello, I Am Khushi Music Bot Telegram Groups ...
+
+✦ Powered By - [Khushi Singh](Ankit_khushi) .
+━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -47,6 +47,7 @@ async def start_(client: Client, message: Message):
                         InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
+                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
                       InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
                 ]
                 
