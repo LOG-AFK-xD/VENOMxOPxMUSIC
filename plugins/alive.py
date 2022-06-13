@@ -37,13 +37,13 @@ async def start_(client: Client, message: Message):
         caption=f"""**➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ♻️ Hello, I Am Khushi Music Bot Telegram Groups.I'm a telegram streaming bot with some useful features
 
-✦ Powered By - [</Official ➣LOG⛦ AFK xͮD 🇮🇳](t.me/Official_Afk_xD) .
+✦ Powered By - [⇆ㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤ↻](t.me/Official_Afk_xD) .
 ━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="Owner", url=f"t.me/ankit_khushi"),
+                        text="Owner", url=f"t.me/Official_Pro_xD"),
                         InlineKeyboardButton(text="Channel", url=f"https://t.me/ITZZ_OFFICIAL"),
                       InlineKeyboardButton(text="Group", url=f"https://t.me/LOVE_X_POISONS"),
                   ],[
@@ -56,7 +56,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "✦ Add Me Group ✦", url="t.me/khushirobot?startgroup=true"),
+                        "✦ Add Me To Group ✦", url="t.me/khushirobot?startgroup=true"),
 
                 ]
                 
