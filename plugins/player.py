@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 🎸🎸...**")
+    lel = await message.reply("**🔁 Processing Song ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -172,8 +172,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▷", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="II", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
                       InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
 
