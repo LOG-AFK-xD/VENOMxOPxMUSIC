@@ -37,22 +37,27 @@ async def start_(client: Client, message: Message):
         caption=f"""**➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ♻️ Hello, I Am Khushi Music Bot Telegram Groups.I'm a telegram streaming bot with some useful features
 
-✦ Powered By - [Khushi Singh](t.me/Ankit_khushi) .
+✦ Powered By - [</Official ➣LOG⛦ AFK xͮD 🇮🇳](t.me/Official_Afk_xD) .
 ━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="Owner", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton(text="Channel", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
+                        text="Owner", url=f"t.me/ankit_khushi"),
+                        InlineKeyboardButton(text="Channel", url=f"https://t.me/ITZZ_OFFICIAL"),
+                      InlineKeyboardButton(text="Group", url=f"https://t.me/LOVE_X_POISONS"),
                   ],[
                       InlineKeyboardButton(
-                        "✦ Support", url=f"https://t.me/OFFICIAL_AFK_xD"
+                        "✦ Support", url=f"https://t.me/UNIQUE_SOCIETY"
                     ),
                     InlineKeyboardButton(
-                        "Updates ✦", url=f"https://t.me/iTzz_Official"                  
+                        "Updates ✦", url=f"https://t.me/BLAZE_SUPPORT"                  
                     ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✦ Add Me Group ✦", url="t.me/khushirobot?startgroup=true"),
+
                 ]
                 
            ]
