@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: AnkiT SHukla  (@Official_pro_xD)",
         (255, 255, 255),
         font=font,
     )
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
+        thumb_name = "https://telegra.ph/file/4efa4c558c98393f24c61.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -172,10 +172,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                      InlineKeyboardButton(text="▷", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="II", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▷", url=f"https://t.me/the_Blaze_NETWORK"),
+                      InlineKeyboardButton(text="II", url=f"https://t.me/LOVE_X_POISONS"),
+                      InlineKeyboardButton(text="▢", url=f"https://t.me/ALL_DEAR_COMRADE"),
+                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/The_secret_worlds"),
                   ],[
                       InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
                       InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
@@ -215,30 +215,29 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                      InlineKeyboardButton(text="▷", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="II", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▷", url=f"https://t.me/the_Blaze_NETWORK"),
+                      InlineKeyboardButton(text="II", url=f"https://t.me/LOVE_X_POISONS"),
+                      InlineKeyboardButton(text="▢", url=f"https://t.me/ALL_DEAR_COMRADE"),
+                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/The_secret_worlds"),
                   ],[
                       InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
                       InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
-
                 ]
             ]
         )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
+            thumb_name = "https://telegra.ph/file/4efa4c558c98393f24c61.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                      InlineKeyboardButton(text="▷", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="II", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▷", url=f"https://t.me/the_Blaze_NETWORK"),
+                      InlineKeyboardButton(text="II", url=f"https://t.me/LOVE_X_POISONS"),
+                      InlineKeyboardButton(text="▢", url=f"https://t.me/ALL_DEAR_COMRADE"),
+                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/The_secret_worlds"),
                   ],[
                       InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
                       InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
@@ -292,13 +291,13 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                      InlineKeyboardButton(text="▷", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="II", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="▷", url=f"https://t.me/the_Blaze_NETWORK"),
+                      InlineKeyboardButton(text="II", url=f"https://t.me/LOVE_X_POISONS"),
+                      InlineKeyboardButton(text="▢", url=f"https://t.me/ALL_DEAR_COMRADE"),
+                      InlineKeyboardButton(text="‣‣", url=f"https://t.me/The_secret_worlds"),
                   ],[
                       InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
-                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/TheMafiaSupport"),
+                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
 
 
                 ]
@@ -338,7 +337,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**Powered By - @TheBlazeNetwork **".format(),
+            caption="**✨Now Playing Songs🎵🦋**".format(),
            )
 
     os.remove("final.png")
@@ -352,7 +351,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
-                             caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
+                             caption="**Paused ⏸...**"
     )
 
 
@@ -363,7 +362,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
-                             caption="**𝐑𝐞𝐬𝐮𝐦𝐞⏹...**"
+                             caption="**Resume ⏹...**"
     )
 
 
@@ -430,6 +429,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png",
+                              photo="https://telegra.ph/file/f5e9840ff5baba162b472.jpg",
                               caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
     )
