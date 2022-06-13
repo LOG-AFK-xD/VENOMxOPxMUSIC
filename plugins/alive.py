@@ -48,7 +48,7 @@ async def start_(client: Client, message: Message):
                       InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
                       InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}"),
                 ]
                 
            ]
