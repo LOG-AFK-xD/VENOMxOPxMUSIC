@@ -177,7 +177,8 @@ async def play(_, message: Message):
                       InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="✦ Developer ✦", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
+                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
 
                 ]
             ]
@@ -219,8 +220,8 @@ async def play(_, message: Message):
                       InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="✦ Developer ✦", url=f"https://t.me/{OWNER_USERNAME}")
-
+                      InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
+                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
 
                 ]
             ]
@@ -239,8 +240,8 @@ async def play(_, message: Message):
                       InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="✦ Developer ✦", url=f"https://t.me/{OWNER_USERNAME}")
-
+                      InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
+                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/ITZZ_OFFICIAL"),
                 ]
             ]
         )
@@ -296,7 +297,8 @@ async def play(_, message: Message):
                       InlineKeyboardButton(text="▢", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="‣‣", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="✦ Developer ✦", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"),
+                      InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/TheMafiaSupport"),
 
 
                 ]
@@ -336,7 +338,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**𝐏𝐥𝐚𝐲𝐢𝐧𝐠🎸**".format(),
+            caption="**Powered By - @TheBlazeNetwork **".format(),
            )
 
     os.remove("final.png")
