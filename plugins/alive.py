@@ -34,24 +34,24 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/49b5112926e556cb64c9e.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━
-♻️ Hello, I Am Khushi Music Bot Telegram Groups ...
+        caption=f"""**➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+♻️ Hello, I Am Khushi Music Bot Telegram Groups.I'm a telegram streaming bot with some useful features
 
-✦ Powered By - [Khushi Singh](Ankit_khushi) .
+✦ Powered By - [Khushi Singh](t.me/Ankit_khushi) .
 ━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        text="Owner", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
+                        InlineKeyboardButton(text="Channel", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
                       InlineKeyboardButton(
-                        "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
+                        "✦ Support", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "💡 About me", url=f"https://t.me/iTzz_Official"                  
+                        "Updates ✦", url=f"https://t.me/iTzz_Official"                  
                     ),
                 ]
                 
@@ -63,30 +63,15 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "venomop"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/4efa4c558c98393f24c61.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "Support, url=f"https://t.me/{SUPPORT_GROUP}")
                 ]
             ]
         ),
     )
 
-
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
-                ]
-            ]
-        ),
-    )
