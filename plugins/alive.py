@@ -35,7 +35,8 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/49b5112926e556cb64c9e.jpg",
         caption=f"""**➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-♻️ Hello, I Am Khushi Music Bot Telegram Groups.I'm a telegram streaming bot with some useful features
+♻️ Hello, I Am Khushi Music Bot Telegram Groups.
+🦋 I'm a telegram streaming bot with some useful features.
 
 ✦ Powered By - [⇆ㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤ↻](t.me/Official_Afk_xD) .
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖**""",
