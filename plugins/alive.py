@@ -38,7 +38,7 @@ async def start_(client: Client, message: Message):
 ♻️ Hello, I Am Khushi Music Bot Telegram Groups.I'm a telegram streaming bot with some useful features
 
 ✦ Powered By - [⇆ㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤ↻](t.me/Official_Afk_xD) .
-━━━━━━━━━━━━━━━━━━━━━━━**""",
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
